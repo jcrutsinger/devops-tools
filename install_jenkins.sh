@@ -25,7 +25,6 @@ name=Jenkins
 baseurl=http://pkg.jenkins.io/redhat
 gpgcheck=0
 EOF
-exit
 
 #sudo rpm --import http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key
 sudo yum install jenkins -y
