@@ -37,6 +37,6 @@ sudo systemctl enable jenkins.service
 echo " "
 printf "Create ssh-key for Jenkins User and be sure to copy key to all Jenkins Slaves"
 echo " "
-echo "Be sure to add jenkins user to sudo"
+printf "Be sure to add jenkins user to sudo"
 
 exit 0;
